@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
+    <!-- Set property action -->
   <record id="action_manager_properties" model="ir.actions.act_window">
       <field name="name">Gestionar Propiedades</field>
       <field name="res_model">property</field>
       <field name="view_mode">kanban,tree,form</field>
   </record>
 
+    <!-- Set property.type action -->
   <record id="action_manager_property_types" model="ir.actions.act_window">
       <field name="name">Gestionar Tipos de Propiedades</field>
       <field name="res_model">property.type</field>
       <field name="view_mode">tree,form,kanban</field>
   </record>
 
+    <!-- Set property.address action -->
     <record id="action_manager_property_address" model="ir.actions.act_window">
       <field name="name">Gestionar Direcciones de las Propiedades</field>
       <field name="res_model">property.address</field>
       <field name="view_mode">tree,form,kanban</field>
   </record>
 
+    <!-- Direct access of the module in the menu view -->
   <menuitem 
       id="menu_real_estate"
       name="Bienes Raíces"
@@ -26,18 +30,21 @@
       sequence="10"
   />
 
+    <!-- property access link-->
   <menuitem id="menu_real_estate_manager_properties"
          name="Propiedades"
          parent="menu_real_estate"
          action="action_manager_properties"
          sequence="1"/>
 
+    <!-- property.type access link-->
   <menuitem id="menu_real_estate_manager_property_types"
          name="Tipos de Propiedades"
          parent="menu_real_estate"
          action="action_manager_property_types"
          sequence="2"/>
 
+    <!-- property.address access link-->
   <menuitem id="menu_real_estate_manager_property_address"
             name="Direcciones de las Propiedades"
             parent="menu_real_estate"

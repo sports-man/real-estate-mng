@@ -5,13 +5,13 @@ class PropertyAddress(models.Model):
     _name = 'property.address'
     _description = 'Property Address'
 
-    street = fields.Char(string='Calle')
+    street = fields.Char(string='Calle', required=True)
     street2 = fields.Char(string='Calle 2')
-    city = fields.Char(string='Ciudad')
-    state_id = fields.Many2one('res.country.state', string='Provincia')
-    country_id = fields.Many2one('res.country', string='País')
+    city = fields.Char(string='Ciudad', required=True)
+    state_id = fields.Many2one('res.country.state', string='Provincia', required=True)
+    country_id = fields.Many2one('res.country', string='País', required=True)
     zip = fields.Char(string='Código Postal')
-    neighborhood = fields.Char(string='Sector')
+    neighborhood = fields.Char(string='Sector', required=True)
     building = fields.Char(string='Edificio')
     floor = fields.Char(string='Piso')
     apartment = fields.Char(string='Apartamento')
@@ -19,6 +19,8 @@ class PropertyAddress(models.Model):
 
     @api.model
     def create(self, vals):
+        # The `name` field is a computed field that concatenates the values of the
+        # `zip`, `country_id`, `state_id`, `street`, and `neighborhood` fields.
         name = ''
         if vals.get('zip'):
             name += vals['zip']
