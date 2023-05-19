@@ -1,0 +1,86 @@
+<odoo>
+    <data>
+        <!-- Form view to property.address model -->
+        <record id="view_property_address_form" model="ir.ui.view">
+            <field name="name">property.address.form</field>
+            <field name="model">property.address</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="country_id"/>
+                            <field name="state_id"/>
+                            <field name="city"/>
+                            <field name="street"/>
+                            <field name="zip"/>
+                            <field name="apartment"/>
+                            <field name="floor"/>
+                            <field name="building"/>
+                            <field name="neighborhood"/>
+                            <field name="street2"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Tree view to property.address model -->
+        <record id="view_property_address_tree" model="ir.ui.view">
+            <field name="name">property.address.tree</field>
+            <field name="model">property.address</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="country_id"/>
+                    <field name="state_id"/>
+                    <field name="city"/>
+                    <field name="street"/>
+                    <field name="zip"/>
+                    <field name="apartment"/>
+                    <field name="floor"/>
+                    <field name="building"/>
+                    <field name="neighborhood"/>
+                    <field name="street2"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Kanban view to property.address model -->
+        <record id="view_property_address_kanban" model="ir.ui.view">
+            <field name="name">property.address.kanban</field>
+            <field name="model">property.address</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="country_id"/>
+                    <field name="state_id"/>
+                    <field name="city"/>
+                    <field name="street"/>
+                    <field name="zip"/>
+                    <field name="apartment"/>
+                    <field name="floor"/>
+                    <field name="building"/>
+                    <field name="neighborhood"/>
+                    <field name="street2"/>
+                    <field name="name"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_content">
+                                <div>
+                                    <h3 class="text-center">Dirección</h3>
+                                    <ul>
+                                        <li t-if="record.country_id.raw_value"><strong>País: </strong><field name="country_id" on_change="1"/></li>
+                                        <li t-if="record.state_id.raw_value"><strong>Ciudad: </strong><field name="state_id" on_change="1"/></li>
+                                        <li t-if="record.city.raw_value"><strong>Provincia: </strong><field name="city" on_change="1"/></li>
+                                        <li t-if="record.neighborhood.raw_value"><strong>Vencindarío: </strong><field name="neighborhood" on_change="1"/></li>
+                                        <li t-if="record.building.raw_value"><strong>Apartamento: </strong><field name="building" on_change="1"/></li>
+                                        <li t-if="record.floor.raw_value"><strong>Piso: </strong><field name="floor" on_change="1"/></li>
+                                        <li t-if="record.zip.raw_value"><strong>Código postal: </strong><field name="neighborhood" on_change="1"/></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+    </data>
+</odoo>

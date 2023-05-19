@@ -1,0 +1,11 @@
+# Ignorar carpetas __pycache__
+__pycache__/
+
+# Otros archivos y carpetas ignorados comunes en proyectos de Odoo
+.idea/
+.vscode/
+*.pyc
+*.pyo
+*~
+*.bak
+.DS_Store

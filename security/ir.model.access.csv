@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_property_type_user,Property Type User,model_property_type,base.group_user,1,1,1,1
+access_property_user,Property User,model_property,base.group_user,1,1,1,1
+access_property_address_user,Property Address User,model_property_address,base.group_user,1,1,1,1
+access_property_property,real_estate_manager.group_real_estate_manager,model_property,base.group_user,1,1,1,1
+
+
+
