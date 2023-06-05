@@ -6,7 +6,7 @@ El módulo de Gestión de Bienes Raíces es una extensión para el software de O
 Requisitos
 -----------
 
-- Odoo 15 o superior
+- Odoo 14 o superior
 - Módulo base de Odoo instalado
 
 Características principales
