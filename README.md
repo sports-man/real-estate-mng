@@ -1,4 +1,4 @@
-# Módulo de Gestión de Bienes Raíces para Odoo
+# Real Estate Odoo Module
 
 
 El módulo de Gestión de Bienes Raíces es una extensión para el software de Odoo que permite administrar propiedades, realizar búsquedas personalizadas, asignar agentes de ventas y mucho más. Este módulo ha sido desarrollado para adaptarse a las necesidades específicas de la industria de bienes raíces.
