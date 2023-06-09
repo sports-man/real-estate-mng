@@ -11,7 +11,7 @@ class PropertyAddress(models.Model):
     state_id = fields.Many2one('res.country.state', string='State', required=True)
     country_id = fields.Many2one('res.country', string='Country', required=True)
     zip = fields.Char(string='ZIP')
-    neighborhood = fields.Char(string='Sector', required=True)
+    neighborhood = fields.Char(string='Neighborhood', required=True)
     building = fields.Char(string='Edificio')
     floor = fields.Char(string='Piso')
     apartment = fields.Char(string='Apartamento')
