@@ -13,7 +13,7 @@ class PropertyAddress(models.Model):
     zip = fields.Char(string='ZIP')
     neighborhood = fields.Char(string='Neighborhood', required=True)
     building = fields.Char(string='Building')
-    floor = fields.Char(string='Piso')
+    floor = fields.Char(string='Floor')
     apartment = fields.Char(string='Apartamento')
     name = fields.Char(string='Nombre', store=True)
 
