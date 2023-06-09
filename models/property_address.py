@@ -15,7 +15,7 @@ class PropertyAddress(models.Model):
     building = fields.Char(string='Building')
     floor = fields.Char(string='Floor')
     apartment = fields.Char(string='Apartment')
-    name = fields.Char(string='Nombre', store=True)
+    name = fields.Char(string='Name', store=True)
 
     @api.model
     def create(self, vals):
