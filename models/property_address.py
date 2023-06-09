@@ -7,7 +7,7 @@ class PropertyAddress(models.Model):
 
     street = fields.Char(string='Street', required=True)
     street2 = fields.Char(string='Street 2')
-    city = fields.Char(string='Ciudad', required=True)
+    city = fields.Char(string='City', required=True)
     state_id = fields.Many2one('res.country.state', string='Provincia', required=True)
     country_id = fields.Many2one('res.country', string='País', required=True)
     zip = fields.Char(string='Código Postal')
