@@ -14,7 +14,7 @@ class PropertyAddress(models.Model):
     neighborhood = fields.Char(string='Neighborhood', required=True)
     building = fields.Char(string='Building')
     floor = fields.Char(string='Floor')
-    apartment = fields.Char(string='Apartamento')
+    apartment = fields.Char(string='Apartment')
     name = fields.Char(string='Nombre', store=True)
 
     @api.model
