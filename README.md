@@ -1,33 +1,33 @@
 # Real Estate Odoo Module
 
 
-El módulo de Gestión de Bienes Raíces es una extensión para el software de Odoo que permite administrar propiedades, realizar búsquedas personalizadas, asignar agentes de ventas y mucho más. Este módulo ha sido desarrollado para adaptarse a las necesidades específicas de la industria de bienes raíces.
+The Real Estate Management module is an extension to the Odoo software that allows you to manage properties, perform customized searches, assign sales agents and much more. This module has been developed to suit the specific needs of the real estate industry.
 
-Requisitos
+Requirements
 -----------
 
-- Odoo 14 o superior
-- Módulo base de Odoo instalado
+- Odoo 14 or higher
+- Odoo base
 
-Características principales
+Main Features
 --------------------------
 
-- Registro y gestión de propiedades, incluyendo detalles como descripción, precio, número de habitaciones, número de baños, dirección, área total, fecha de disponibilidad, etc.
-- Búsqueda avanzada de propiedades por tipo, precio, número de habitaciones, etc.
-- Asignación de agentes de ventas a propiedades específicas.
-- Integración con los datos demo de Odoo para seleccionar países, estados y socios comerciales existentes.
-- Subida de imágenes para cada propiedad y visualización en las vistas de lista y kanban.
+- Property registration and management, including details such as description, price, number of rooms, number of bathrooms, address, total area, availability date, etc.
+- Advanced property search by type, price, number of rooms, etc.
+- Assignment of sales agents to specific properties.
+- Integration with Odoo demo data to select countries, states and existing business partners.
+- Upload images for each property and display in list and kanban views.
 
-Instalación
+Insllation
 -----------
 
-1. Descarga el módulo de Gestión de Bienes Raíces desde el repositorio Git o desde otro origen confiable.
-2. Coloca el módulo en la carpeta de módulos de tu instalación de Odoo.
-3. Reinicia el servidor de Odoo.
-4. Inicia sesión en el panel de administración de Odoo.
-5. Ve a la sección "Aplicaciones" y busca "Bienes Raíces".
-6. Haz clic en "Instalar" para instalar el módulo.
-7. Una vez instalado, puedes acceder a las diferentes funcionalidades a través del menú principal de Odoo.
+1. Download the Real Estate Management module from the Git repository or from another trusted source.
+2. Place the module in the modules folder of your Odoo installation.
+3. Restart the Odoo server.
+4. Log in to the Odoo administration panel.
+5. Go to the "Applications" section and look for "Real Estate".
+6. Click on "Install" to install the module.
+7. Once installed, you can access the different functionalities through the Odoo main menu.
 
 Developer
 -----------
