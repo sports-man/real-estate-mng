@@ -3,13 +3,13 @@ from odoo import models, fields, api
 
 class Property(models.Model):
     _name = 'property'
-    _description = 'Propiedad'
+    _description = 'Property'
 
-    property_type_id = fields.Many2one('property.type', string='Tipo de Propiedad', required=True)
-    name = fields.Char(string='Nombre de la Propiedad', required=True)
-    description = fields.Text(string='Descripción de la Propiedad', required=True)
-    address_id = fields.Many2one('property.address', string='Dirección de la Propiedad', required=True)
-    price = fields.Float(string='Precio de la Propiedad', required=True)
+    property_type_id = fields.Many2one('property.type', string='Property type', required=True)
+    name = fields.Char(string='Name', required=True)
+    description = fields.Text(string='Description', required=True)
+    address_id = fields.Many2one('property.address', string='Address', required=True)
+    price = fields.Float(string='Price', required=True)
     num_bedrooms = fields.Integer(string='Número de Habitaciones')
     num_bathrooms = fields.Integer(string='Número de Baños')
     total_area = fields.Char(string='Área Total de la Propiedad', required=True)
