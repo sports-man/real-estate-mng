@@ -4,5 +4,5 @@ class PropertyType(models.Model):
     _name = 'property.type'
     _description = 'Property Type'
 
-    name = fields.Char(string='Nombre del Tipo de Propiedad', required=True)
-    description = fields.Text(string='Descripción', required=True)
+    name = fields.Char(string='Name', required=True)
+    description = fields.Text(string='Description', required=True)
