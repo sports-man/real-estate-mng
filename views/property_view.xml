@@ -84,7 +84,7 @@
                                             <ul>
                                                 <li t-if="record.description.raw_value"><field name="description" on_change="1"/></li>
                                                 <li t-if="record.price.raw_value">RD$ <field name="price" on_change="1"/></li>
-                                                <li t-if="record.num_bedrooms.raw_value">🛏️ <field name="num_bedrooms"/> 🛁 <field name="num_bathrooms"/> 📐 <field name="total_area"/> metros</li>
+                                                <li t-if="record.num_bedrooms.raw_value">🛏️ <field name="num_bedrooms"/> 🛁 <field name="num_bathrooms"/> 📐 <field name="total_area"/> mts</li>
                                                 <li t-if="record.address_id.raw_value" class="o_text_overflow"><field name="address_id" on_change="1"/></li>
                                             </ul>
                                         </div>
