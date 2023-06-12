@@ -65,15 +65,15 @@
                         <t t-name="kanban-box">
                             <div class="oe_kanban_content">
                                 <div>
-                                    <h3 class="text-center">Dirección</h3>
+                                    <h3 class="text-center">Address</h3>
                                     <ul>
-                                        <li t-if="record.country_id.raw_value"><strong>País: </strong><field name="country_id" on_change="1"/></li>
-                                        <li t-if="record.state_id.raw_value"><strong>Ciudad: </strong><field name="state_id" on_change="1"/></li>
-                                        <li t-if="record.city.raw_value"><strong>Provincia: </strong><field name="city" on_change="1"/></li>
-                                        <li t-if="record.neighborhood.raw_value"><strong>Vencindarío: </strong><field name="neighborhood" on_change="1"/></li>
-                                        <li t-if="record.building.raw_value"><strong>Apartamento: </strong><field name="building" on_change="1"/></li>
-                                        <li t-if="record.floor.raw_value"><strong>Piso: </strong><field name="floor" on_change="1"/></li>
-                                        <li t-if="record.zip.raw_value"><strong>Código postal: </strong><field name="neighborhood" on_change="1"/></li>
+                                        <li t-if="record.country_id.raw_value"><strong>Country: </strong><field name="country_id" on_change="1"/></li>
+                                        <li t-if="record.state_id.raw_value"><strong>City: </strong><field name="state_id" on_change="1"/></li>
+                                        <li t-if="record.city.raw_value"><strong>State: </strong><field name="city" on_change="1"/></li>
+                                        <li t-if="record.neighborhood.raw_value"><strong>Neigborhood: </strong><field name="neighborhood" on_change="1"/></li>
+                                        <li t-if="record.building.raw_value"><strong>Building: </strong><field name="building" on_change="1"/></li>
+                                        <li t-if="record.floor.raw_value"><strong>Floor: </strong><field name="floor" on_change="1"/></li>
+                                        <li t-if="record.zip.raw_value"><strong>Zip: </strong><field name="zip" on_change="1"/></li>
                                     </ul>
                                 </div>
                             </div>
