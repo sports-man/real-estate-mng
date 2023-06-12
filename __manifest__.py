@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Bienes Raíces",
+    'name': "Real Estate",
 
     'summary': """
-        Este es un módulo personalizado de inmobiliaria para gestionar inmuebles y sus detalles.
-        Incluye modelos para tipos de propiedad y propiedades, así como vistas correspondientes.
+        This is a customized real estate module to manage properties and their details.
+        It includes templates for property types and properties, as well as corresponding views.
     """,
 
     'description': """
-        Módulo personalizado de inmobiliaria para gestionar inmuebles y sus detalles.
+        Customized real estate module to manage properties and their details.
     """,
 
     'author': "Frainer Encarnación",
