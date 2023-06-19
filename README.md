@@ -4,7 +4,7 @@
 The Real Estate Management module is an extension to the Odoo software that allows you to manage properties, perform customized searches, assign sales agents and much more. This module has been developed to suit the specific needs of the real estate industry.
 
 Requirements
------------
+--------------------------
 
 - Odoo 14 or higher
 - Odoo base
@@ -19,7 +19,7 @@ Main Features
 - Upload images for each property and display in list and kanban views.
 
 Insllation
------------
+--------------------------
 
 1. Download the Real Estate Management module from the Git repository or from another trusted source.
 2. Place the module in the modules folder of your Odoo installation.
@@ -30,6 +30,6 @@ Insllation
 7. Once installed, you can access the different functionalities through the Odoo main menu.
 
 Developer
------------
+--------------------------
 - Frainer Encarnación -> [Github](https://github.com/fraineralex) 
 
