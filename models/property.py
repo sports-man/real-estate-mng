@@ -5,6 +5,7 @@ class Property(models.Model):
     _name = 'property'
     _description = 'Property'
 
+    # Fields of the model
     property_type_id = fields.Many2one('property.type', string='Property type', required=True)
     name = fields.Char(string='Name', required=True)
     description = fields.Text(string='Description', required=True)
