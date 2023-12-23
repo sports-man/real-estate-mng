@@ -29,7 +29,7 @@
   </a>
 
   <a href="https://github.com/fraineralex/real_estate_manager/LICENSE.md" target="_blank">
-    <img alt="Badge showing project license type" src="https://img.shields.io/github/license/maurodesouza/profile-readme-generator?color=f85149">
+    <img alt="Badge showing project license type" src="https://img.shields.io/github/license/fraineralex/real_estate_manager?color=f85149">
   </a>
 </p>
 
