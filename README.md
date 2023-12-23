@@ -96,7 +96,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 
 ## :memo: License ##
 
-This project is under license from GNU v3. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from GPL-3.0. For more details, see the [LICENSE](LICENSE.md) file.
 
 
 Made with 💙 by <a href="https://github.com/fraineralex" target="_blank">Frainer Encarnación</a>
