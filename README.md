@@ -76,6 +76,7 @@ The Real Estate Management module is an extension to the Odoo software that allo
 * Python
     - odoo
     - xml
+    - bootstrap
 
 </details>
 
