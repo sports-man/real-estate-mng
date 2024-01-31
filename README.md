@@ -91,8 +91,9 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
     $ git clone https://github.com/fraineralex/real_estate_manager
 # Access
     $ cd real_estate_manager
-# Run the project
-# The server will execute and you will see the module in the home view called: "real estate"
+# Restart your odoo server
+# Install the module called "Real Estate"
+# Then you will see the icon of the module in the home view
 ```
 
 ## :memo: License ##
