@@ -4,42 +4,10 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/fraineralex/real_estate_manager/fork" target="_blank">
-    <img src="https://img.shields.io/github/forks/fraineralex/real_estate_manager?" alt="Badge showing the total of project forks"/>
-  </a>
-
-  <a href="https://github.com/fraineralex/real_estate_manager/stargazers" target="_blank">
-    <img src="https://img.shields.io/github/stars/fraineralex/real_estate_manager?" alt="Badge showing the total of project stars"/>
-  </a>
-
-  <a href="https://github.com/fraineralex/real_estate_manager/commits/main" target="_blank">
-    <img src="https://img.shields.io/github/commit-activity/m/fraineralex/real_estate_manager?" alt="Badge showing average commit frequency per month"/>
-  </a>
-
-  <a href="https://github.com/fraineralex/real_estate_manager/commits/main" target="_blank">
-    <img src="https://img.shields.io/github/last-commit/fraineralex/real_estate_manager?" alt="Badge showing when the last commit was made"/>
-  </a>
-
-  <a href="https://github.com/fraineralex/real_estate_manager/issues" target="_blank">
-    <img src="https://img.shields.io/github/issues/fraineralex/real_estate_manager?" alt="Badge showing the total of project issues"/>
-  </a>
-
-  <a href="https://github.com/fraineralex/real_estate_manager/pulls" target="_blank">
-    <img src="https://img.shields.io/github/issues-pr/fraineralex/real_estate_manager?" alt="Badge showing the total of project pull-requests"/>
-  </a>
-
-  <a href="https://github.com/fraineralex/real_estate_manager/LICENSE.md" target="_blank">
-    <img alt="Badge showing project license type" src="https://img.shields.io/github/license/fraineralex/real_estate_manager?color=f85149">
-  </a>
-</p>
-
-
-<p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0;
   <a href="#rocket-main-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="https://github.com/fraineralex/real_estate_manager/edit/master/README.md">Contributing</a>
 </p>
 
 ## :dart: About ##
@@ -95,16 +63,3 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 # Install the module called "Real Estate"
 # Then you will see the icon of the module in the home view
 ```
-
-## :memo: License ##
-
-This project is under license from GPL-3.0. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with 💙 by <a href="https://github.com/fraineralex" target="_blank">Frainer Encarnación</a>
-
-
-## 👨🏻‍🚀 Developer
-- Frainer Encarnación --> [Github](https://github.com/fraineralex)
-
-&#xa0;
